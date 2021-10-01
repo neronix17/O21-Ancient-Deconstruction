@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="NonDeconstructibleAncientBuildingBase"]/building/deconstructible</xpath>
+		<value>
+			<deconstructible>true</deconstructible>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="NonDeconstructibleAncientBuildingBase"]/building/claimable</xpath>
+		<value>
+			<claimable>true</claimable>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="NonDeconstructibleAncientBuildingBase"]/statBases</xpath>
+		<value>
+			<WorkToBuild>1500</WorkToBuild>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientRustedCar"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>2</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientRustedJeep"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>2</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientRustedCarFrame"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>2</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientWarwalkerTorso"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>4</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientWarwalkerClaw"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>1</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientWarwalkerLeg"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>1</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientMiniWarwalkerRemains"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>4</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientWarspiderRemains"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientPipelineSection"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientWarwalkerFoot"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientTank"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientWarwalkerShell"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientJetEngine"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AncientPodCar"]</xpath>
+		<value>
+			<costList>
+				<ChunkSlagSteel>6</ChunkSlagSteel>
+			</costList>
+		</value>
+	</Operation>
+
+</Patch>
